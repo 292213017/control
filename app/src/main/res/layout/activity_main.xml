@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/startID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接服务器"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/con1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="居中"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/con2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/con1"
+            android:layout_toRightOf="@id/con1"
+            android:text="放大"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/con3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/con1"
+            android:layout_toRightOf="@id/con1"
+            android:text="缩小"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/con4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/con2"
+            android:layout_toRightOf="@id/con2"
+            android:text="拆分"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/con5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="X-"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/con6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/con5"
+            android:text="Y-"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/con7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/con5"
+            android:text="X+"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/con8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/con7"
+            android:layout_toLeftOf="@id/con6"
+            android:text="Y+"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/con9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/con8"
+            android:text="Z+"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/con10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/con9"
+            android:layout_below="@id/con8"
+            android:text="Z-"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
